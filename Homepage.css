@@ -1,54 +1,109 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="Width=1280, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="Homepage.css">
-  </head>
-  <body>
-    <div class ="HomePage">
+body {
+    background-image: url("https://user-images.githubusercontent.com/122787483/213494410-844709f6-9e54-4e64-b996-1797a6e126b7.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        <!-- <h1>Baking Bad</h1> Changing this to a logo I made -->
-        <div class = "BakingBadLogo">
-            <header class = "header">
-                <a href="index.html">
-                <img src= "https://user-images.githubusercontent.com/122787483/213505818-251ed579-4452-4a9f-9629-c02f6f2c746e.png" alt="Baking Bad " height = 100px, width = 150px>
-                </a>
-            </header>
-        </div>
+.BakingBadLogo {
+    float: left;
+    background-color: transparent;
+}
 
-        <title> Baking Bad </title>
+ul.LinksOnTop {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        <div class = "LinksOnTop">
-            <li><a href="https://media.tenor.com/sUcWGzBY2woAAAAM/no-i-am.gif">"I am the one who knocks. "</a></li>
-            <li><a href="https://media4.giphy.com/media/3oFzmkkwfOGlzZ0gxi/giphy.gif">"You're Goddamn right "</a></li>
-            <li><a href="https://media3.giphy.com/media/Zqu6PpSZVvvaw/200w.gif?cid=6c09b952aj2jkisokqz75hyxmbse7g2zje8zmsyc59sy35se&rid=200w.gif&ct=g">"Tread lightly.. "</a></li>
-            <li><a href="https://i.pinimg.com/originals/1e/05/60/1e05603c43e4454808a0f86634fcc42a.gif">"Yo I'm "</a></li>
-        </div>
+.LinksOnTop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;;
+  }
+  
+  .LinksOnTop li {
+    display:inline-block;
+  }
+  
+  .LinksOnTop li a {
+    display: block;
+    color: White;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .LinksOnTop li a:hover {
+    background-color: #026635;
+    color: white;
+  } 
 
-        <section class="RvText">
-            <div class ="RV">
-                <h1> 
-                    Baking Bad
-                </h1>
-            </div>
-        </section>
+.RvText {
+    color: White;
+    font-size: 36px;
+    position: absolute;
+    bottom: 55%;
+    right: 10%;
+    text-shadow: 2px 2px 8px #000000;
+}
 
-        <section class="RvButton">
-                <form action="https://google.com">
-                        <button type="sbutton">Go in the RV</button>
-                    </button>
-                </form>
-        </section>
+.RvText h1 {  
+    border: none; 
+    color: white; 
+    text-align: center; 
+    display: inline-block;
+    cursor: pointer; 
+    font-size:64px;
+}
 
-    <footer>
-        <section class="FootLinks">
-            <li><a href=https://breakingbad.fandom.com/wiki/Breaking_Bad_Wiki"">About Us</a></li>
-            <li><a href="https://www.imdb.com/title/tt3032476/">Contact Us</a></li>
-            <li><a href="https://github.com/Rookie2556">Author</a></li>
-        </section>
-    </footer>
+.RvButton button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    bottom: 55%;
+    right: 10%;
+    box-shadow: 2px 2px 8px #000000;
+}
 
-</body>
-</html>
+.RvText form {
+    color: #000000;
+}
+
+.FootLinks {
+    position: absolute;
+    bottom: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;;
+}
+
+.FootLinks li {
+    display:inline-block;
+    width: 33%;
+  }
+  
+  .FootLinks li a {
+    display: block;
+    color: White;
+    background-color: #026635;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .FootLinks li a:hover {
+    background-color: #043f23;
+    color: white;
+  } 
+
