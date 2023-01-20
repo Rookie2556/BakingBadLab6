@@ -2,6 +2,10 @@ body {
     background-image: url("https://user-images.githubusercontent.com/122787483/213523241-1f753fe8-1157-45db-8f76-9f1cd60c1b5d.jpg") ;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    .fade-in {
+    opacity: 0;
+    transition: opacity 2s;
+}
     
 }
 
