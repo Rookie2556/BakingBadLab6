@@ -8,7 +8,12 @@ body {
 .BakingBadLogo {
     float: left;
     background-color: transparent;
+    transition: transfom 0.5s;
     
+}
+
+.BakingBadLogo:hover {
+    transform: scale(1.2);
 }
 
 ul.LinksOnTop {
