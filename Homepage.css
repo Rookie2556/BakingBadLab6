@@ -27,6 +27,8 @@ ul.LinksOnTop {
 }
 
 .LinksOnTop {
+    position: absolute;
+    left: 50%;
     list-style-type: none;
     margin: 0;
     padding: 0;
