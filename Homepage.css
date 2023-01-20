@@ -44,13 +44,15 @@ ul.LinksOnTop {
   }
   
   .LinksOnTop li {
-    display:inline-block;
     position: fixed;
     left: 50%;
+    display:inline-block;
   }
   
   .LinksOnTop li a {
     display: block;
+    position: fixed;
+    left: 50%;
     color: White;
     padding: 8px 16px;
     text-decoration: none;
