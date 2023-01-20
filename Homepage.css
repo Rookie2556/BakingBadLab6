@@ -47,8 +47,6 @@ body {
 
 .LinksOnTop {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -56,7 +54,6 @@ body {
   }
   
   .LinksOnTop li {
-    margin: 0 10px;
     width: auto;
   }
   
