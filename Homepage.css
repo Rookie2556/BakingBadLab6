@@ -12,7 +12,7 @@ body {
     
 }
 
-.BakingBadLogo img a:hover {
+.BakingBadLogo img :hover {
     transform: scale(1.2, 1.2);
   } 
 
