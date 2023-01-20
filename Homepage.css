@@ -43,6 +43,8 @@ ul.LinksOnTop {
   
   .LinksOnTop li {
     display:inline-block;
+    position: fixed;
+    left: 50%;
   }
   
   .LinksOnTop li a {
