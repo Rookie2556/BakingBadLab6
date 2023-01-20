@@ -40,6 +40,7 @@ ul.LinksOnTop {
   
   .LinksOnTop li {
     display:inline-block;
+    margin-left: 300px;
   }
   
   .LinksOnTop li a {
