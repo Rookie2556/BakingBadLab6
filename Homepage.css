@@ -18,6 +18,16 @@ body {
     transform: scale(1.2);
 }
 
+.LinksContainer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    color:white;
+}
+
 .LinksOnTop {
     list-style-type: none;
     margin: 0;
