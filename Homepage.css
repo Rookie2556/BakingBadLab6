@@ -62,13 +62,13 @@ ul.LinksOnTop {
     border: none; 
     color: white; 
     text-align: center; 
-    display: inline-block;
-    cursor: pointer; 
+    display: inline-block; 
     font-size:64px;
 }
 
 .RvButton button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    cursor: pointer;
     border: none;
     color: white;
     padding: none;
