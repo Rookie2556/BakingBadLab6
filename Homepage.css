@@ -33,10 +33,12 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    width: 80%
   }
   
   .LinksOnTop li {
     margin: 0 10px;
+    width: auto;
   }
   
   .LinksOnTop li a {
