@@ -20,14 +20,14 @@ body {
 
 ul.LinksOnTop {
     position: absolute;
-    left: 50%;
+    left: calc(50% - (100% / 2));
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .LinksOnTop {
     position: absolute;
-    left: 50%;
+    left: calc(50% - (100% / 2));
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ ul.LinksOnTop {
   
   .LinksOnTop li {
     position: absolute;
-    left: 50%;
+    left: calc(50% - (100% / 2));
   }
   
   .LinksOnTop li a {
