@@ -42,8 +42,6 @@ ul.LinksOnTop {
   }
   
   .LinksOnTop li a {
-    position: absolute;
-    left: 50%;
     display: block;
     color: White;
     padding: 8px 16px;
