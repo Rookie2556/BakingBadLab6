@@ -76,7 +76,7 @@ ul.LinksOnTop {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    position: absolute;
+    position: relative;
     bottom: 55%;
     right: 10%;
     box-shadow: 2px 2px 8px #000000;
