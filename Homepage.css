@@ -10,7 +10,6 @@ body {
 }
 
 .BakingBadLogo img{
-    position: absolute;
     transition: transform 0.5s;
 }
 
