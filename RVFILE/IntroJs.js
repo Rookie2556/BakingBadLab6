@@ -1,5 +1,5 @@
 let GrabAll = document.querySelectorAll(
-    ":not(.RV):not(.LinksOnTop):not(.Introduction):not(.FootLinks)");
+    ":not(.RV):not(.Introduction):not(.FootLinks)");
 
 setTimeout(function(){
   let elements = document.querySelectorAll(".fade-in");
