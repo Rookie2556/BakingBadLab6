@@ -12,9 +12,9 @@ body {
     
 }
 
-.BakingBadLogo:hover img{
-    transform: scale(4);
-}
+.BakingBadLogo img a:hover {
+    transform: scale(1.2, 1.2);
+  } 
 
 ul.LinksOnTop {
     float: right;
