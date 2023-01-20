@@ -19,8 +19,8 @@ body {
 
 #tumbleweed {
     position: relative;
-    top: 800px;
-    left: 0;
+    top: 20px;
+    left: 20px;
     width: 250px;
     height: 250px;
     background: url(https://user-images.githubusercontent.com/122787483/213672931-370192ba-0349-4279-8f60-952c6f421c0b.gif) no-repeat;
