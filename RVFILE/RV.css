@@ -15,8 +15,16 @@ body {
 }
 
 .BakingBadLogo {
+    position: absolute;
+}
+
+.BakingBadLogo img{
     float: left;
-    background-color: transparent;
+    transition: transform 0.5s;
+}
+
+.BakingBadLogo:hover img{
+    transform: scale(1.2);
 }
 
 * p {
