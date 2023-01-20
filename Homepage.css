@@ -34,6 +34,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
+    top: 1em;
   }
   
   .LinksOnTop li {
