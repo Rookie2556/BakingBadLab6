@@ -19,38 +19,6 @@ body {
     background-color: transparent;
 }
 
-ul.LinksOnTop {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.LinksOnTop {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;;
-  }
-  
-  .LinksOnTop li {
-    display:inline-block;
-  }
-  
-  .LinksOnTop li a {
-    display: block;
-    color: White;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  .LinksOnTop li a:hover {
-    background-color: #026635;
-    color: white;
-  } 
-
 * p {
     color: white;
     text-align: center;
