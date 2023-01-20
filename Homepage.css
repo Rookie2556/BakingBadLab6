@@ -85,6 +85,7 @@ ul.LinksOnTop {
 
 .RvButton button:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .RvText form {
