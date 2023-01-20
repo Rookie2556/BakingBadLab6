@@ -18,7 +18,6 @@ body {
 .BakingBadLogo img{
     float: left;
     transition: transform 0.5s;
-    z-index: 2;
 }
 
 .BakingBadLogo:hover img{
@@ -37,12 +36,10 @@ ul.LinksOnTop {
     margin: 0;
     padding: 0;
     width: 100%;;
-    z-index: 1;
   }
   
   .LinksOnTop li {
     display:inline-block;
-    margin-left: 300px;
   }
   
   .LinksOnTop li a {
@@ -127,4 +124,3 @@ ul.LinksOnTop {
     background-color: #043f23;
     color: white;
   } 
-
