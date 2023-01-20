@@ -18,28 +18,19 @@ body {
     transform: scale(1.2);
 }
 
-ul.LinksOnTop {
-    position: absolute;
-    left: calc(50% - (100% / 2));
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .LinksOnTop {
-    left: calc(50% - (100% / 2));
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;;
+    display: flex;
   }
   
   .LinksOnTop li {
-    left: calc(50% - (100% / 2));
+    margin: 0 10px;
   }
   
   .LinksOnTop li a {
     color: White;
-    padding: 8px 16px;
     text-decoration: none;
   }
   
