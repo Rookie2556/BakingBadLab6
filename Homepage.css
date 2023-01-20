@@ -32,6 +32,9 @@ ul.LinksOnTop {
 }
 
 .LinksOnTop {
+    position: fixed;
+    left: 50%;
+    top: 50%;
     list-style-type: none;
     margin: 0;
     padding: 0;
