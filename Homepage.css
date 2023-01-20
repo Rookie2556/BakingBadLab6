@@ -23,7 +23,7 @@ body {
     left: -100px;
     width: 250px;
     height: 250px;
-    background: url(https://user-images.githubusercontent.com/122787483/213672931-370192ba-0349-4279-8f60-952c6f421c0b.gif) no-repeat;
+    background: url(https://user-images.githubusercontent.com/122787483/213725791-9b799a65-33e2-4e53-abe3-dec7fc71baae.gif) no-repeat;
     animation: tumbleweed-animation 10s linear infinite;
     z - index: 999;
 }
