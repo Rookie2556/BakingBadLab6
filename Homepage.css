@@ -6,7 +6,7 @@ body {
 }
 
 .BakingBadLogo {
-    position: relative;
+    position: absolute;
 }
 
 .BakingBadLogo img{
@@ -51,7 +51,7 @@ ul.LinksOnTop {
 .RvText {
     color: White;
     font-size: 36px;
-    position: relative;
+    position: absolute;
     bottom: 55%;
     right: 10%;
     text-shadow: 2px 2px 8px #000000;
@@ -75,7 +75,7 @@ ul.LinksOnTop {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    position: relative;
+    position: absolute;
     bottom: 55%;
     right: 10%;
     box-shadow: 2px 2px 8px #000000;
