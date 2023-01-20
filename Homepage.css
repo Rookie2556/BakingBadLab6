@@ -19,7 +19,8 @@ body {
 }
 
 ul.LinksOnTop {
-    float: right;
+    position: absolute;
+    left: 50%;
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
