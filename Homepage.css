@@ -25,6 +25,8 @@ body {
 }
 
 ul.LinksOnTop {
+    position: fixed;
+    left: 50%;
     float: right;
     display: flex;
     flex-direction: row;
