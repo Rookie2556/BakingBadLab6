@@ -1,7 +1,7 @@
 .header {
     position: relative;
     display: flex;
-    alighn-items: space-between;
+    align-items: space-between;
 }
 
 body {
