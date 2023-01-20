@@ -5,9 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.BakingBadLogo {
+.BakingBadLogo img{
     float: left;
-    background-color: transparent;
     transition: transform 0.5s;
 }
 
