@@ -16,6 +16,8 @@ body {
 
 .BakingBadLogo {
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .BakingBadLogo img{
