@@ -18,9 +18,9 @@ body {
 }
 
 #tumbleweed {
-    position: relative;
-    top: 700px;
-    left: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: -100px;
     width: 250px;
     height: 250px;
     background: url(https://user-images.githubusercontent.com/122787483/213672931-370192ba-0349-4279-8f60-952c6f421c0b.gif) no-repeat;
@@ -29,11 +29,11 @@ body {
 }
 
 @keyframes tumbleweed-animation {
-    0% {
-        transform: translateX(0);
+    from {
+        left: -100px;
     }
-    100% {
-        transform: translateX(100%);
+    to {
+        left: 100%;
     }
 }
 
