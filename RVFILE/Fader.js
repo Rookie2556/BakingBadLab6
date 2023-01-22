@@ -1,7 +1,7 @@
 window.onload = function() {
-  const elements =
+  let elements = //I used const, which outputted an error in chrome.
         document.querySelectorAll(":not(.RV):not(.Introduction):not(.FootLinks)");
-  for (const i = 0; i < elements.length; i++) {
+  for (let i = 0; i < elements.length; i++) {
     elements[i].classList.add("fade-in");
   }
 }
