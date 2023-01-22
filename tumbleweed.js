@@ -1,5 +1,6 @@
 window.addEventListener("load", startAnimation);
 
+
 var tumbleweed = document.getElementById("tumbleweed");
 
 function startAnimation() {
