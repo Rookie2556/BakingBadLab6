@@ -1,4 +1,5 @@
 window.addEventListener("load", startAnimation);
+window.addEventListener("load", startMusic);
 
 
 var tumbleweed = document.getElementById("tumbleweed");
@@ -12,7 +13,10 @@ function stopAnimation() {
     tumbleweed.style.animation = "none";
 }
 
-let music = document.getElementById("music");
-music.play();
+funtion startMusic() {
+    let music = document.getElementById("music");
+    music.play();
+}
 
 startAnimation()
+startMusic()
