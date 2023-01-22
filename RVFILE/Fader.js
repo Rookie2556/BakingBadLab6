@@ -8,3 +8,7 @@ function fadeInner() {
 document.addEventListener('DOMContentLoaded', function() {
     fadeInner();
 });
+
+.fade-out{
+    opacity: 0;
+}
