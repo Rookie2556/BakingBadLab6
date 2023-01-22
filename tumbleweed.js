@@ -24,11 +24,14 @@ startMusic()
 
 function startQuiz() {
     let name = "";
-    while(name.length < 4 || name.length > 15) {
+    while(name.length <= 4) {
         name = prompt("What's your name?");
-}
-    else {console.log("Welcome " + name);}
-}
+        if(name.length <= 4) {
+            alert("Name should be more than 4 letters long.");
+        }
+        }
+   console.log("Welcome " + name);
+    }
 
 startQuiz()
 
