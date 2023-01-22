@@ -20,3 +20,10 @@ function startMusic() {
 
 startAnimation()
 startMusic()
+
+let name = "";
+while(name.length < 4 || name.length > 15) {
+    name = prompt("What's your name?");
+}
+console.log("Welcome " + name);
+
