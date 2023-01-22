@@ -13,7 +13,7 @@ function stopAnimation() {
     tumbleweed.style.animation = "none";
 }
 
-funtion startMusic() {
+function startMusic() {
     let music = document.getElementById("music");
     music.play();
 }
