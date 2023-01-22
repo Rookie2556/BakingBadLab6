@@ -11,7 +11,7 @@ function stopAnimation() {
     tumbleweed.style.animation = "none";
 }
 
-let music = document.getElementByID("music");
+let music = document.getElementById("music");
 music.play();
 
 startAnimation()
