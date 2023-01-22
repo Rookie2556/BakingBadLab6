@@ -1,6 +1,6 @@
 window.onload = function() {
   const elements =
-        document.querySelectorAll(":not(.class1):not(.class2):not(.class3)");
+        document.querySelectorAll(":not(.RV):not(.Introduction):not(.FootLinks)");
   for (const i = 0; i < elements.length; i++) {
     elements[i].classList.add("fade-in");
   }
