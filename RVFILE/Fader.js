@@ -9,6 +9,4 @@ document.addEventListener('DOMContentLoaded', function() {
     fadeInner();
 });
 
-.fade-out{
-    opacity: 0;
-}
+element.classList.add("fade-out");
